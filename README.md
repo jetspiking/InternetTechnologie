@@ -1,4 +1,4 @@
 # InternetTechnologie
 Uitwerkingen Avans opdrachten InternetTechnologie
 
-# 🅃🄾🅄🅁-🄾🄵-🄲🄿🅄🅂 (Tour-Of-Heroes) #
+# 🅃🄾🅄🅁-🄾🄵-🄲🄿🅄🅂 # (Angular Tour-Of-Heroes)
