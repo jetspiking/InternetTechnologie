@@ -1,0 +1,9 @@
+<h2>Top Cpus</h2>
+<div class="cpus-menu">
+  <a *ngFor="let cpu of cpus"
+      routerLink="/detail/{{cpu.id}}">
+      {{cpu.name}}
+  </a>
+</div>
+
+<app-cpu-search></app-cpu-search>

@@ -1,0 +1,21 @@
+<h2>My Cpus</h2>
+
+<div>
+  <label id="new-cpu">Cpu name: </label>
+  <input for="new-cpu" #cpuName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button class="add-button" (click)="add(cpuName.value); cpuName.value=''">
+    Add cpu
+  </button>
+</div>
+
+<ul class="cpus">
+  <li *ngFor="let cpu of cpus">
+    <a routerLink="/detail/{{cpu.id}}">
+      <span class="badge">{{cpu.id}}</span> {{cpu.name}}
+    </a>
+    <button class="delete" title="delete cpu"
+      (click)="delete(cpu)">x</button>
+  </li>
+</ul>
